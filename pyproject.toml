@@ -1,0 +1,11 @@
+[project]
+name = "033-captcha-resolver"
+version = "0.1.0"
+description = "Desarrollo para resolver automaticamente Captchas en SIGA"
+readme = "README.md"
+requires-python = "==3.14.2"
+dependencies = [
+    "numpy==2.4.4",
+    "onnxruntime==1.25.1",
+    "opencv-python==4.13.0.92",
+]
